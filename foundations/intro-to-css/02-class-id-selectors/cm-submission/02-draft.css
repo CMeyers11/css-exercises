@@ -1,0 +1,19 @@
+.odd-line {
+    background-color:rgba(250, 92, 147, 0.89);
+    font-family: Verdana, "DejaVu Sans", sans-serif ;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+.three {
+    font-size: 24px;
+}
+
+#four {
+background-color: hsl(98, 82%, 56%);
+font-weight: 700;
+font-size: 100px;
+}
