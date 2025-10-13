@@ -1,0 +1,15 @@
+.one,
+.two {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    border: 10,solid,black;
+}
+/* could have also done the above as a button type-selector but the exercise is about grouping-selectors */
+.one {
+    background-color: black;
+    color: white;
+}
+
+.two {
+    background-color: yellow;
+}
