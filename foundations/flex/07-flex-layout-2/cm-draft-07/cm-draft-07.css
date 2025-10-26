@@ -29,3 +29,61 @@ body {
 }
 
 /* Solution CM */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
